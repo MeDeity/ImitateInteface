@@ -6,6 +6,10 @@
     android:layout_height="match_parent"
     tools:context="com.deity.imitateinteface.MainActivity">
 
-    <include layout="@layout/fragment_personal" />
+    <include layout="@layout/fragment_personal"
+        android:layout_width="368dp"
+        android:layout_height="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp" />
 
 </android.support.constraint.ConstraintLayout>

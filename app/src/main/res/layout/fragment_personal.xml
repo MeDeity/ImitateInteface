@@ -8,7 +8,14 @@
 
     <LinearLayout style="@style/wrap_layout">
         <!-- 上圆角-->
+        <LinearLayout style="@style/top_layout">
 
+            <TextView
+                style="@style/usertext"
+                android:text="个性签名" />
+
+            <ImageView style="@style/img_arrow" />
+        </LinearLayout>
         <!-- 分割线 -->
         <View style="@style/bg_line" />
         <!-- 无圆角-->
@@ -28,15 +35,6 @@
             <TextView
                 style="@style/usertext"
                 android:text="消息通知" />
-
-            <ImageView style="@style/img_arrow" />
-        </LinearLayout>
-
-        <LinearLayout style="@style/top_layout">
-
-            <TextView
-                style="@style/usertext"
-                android:text="个性签名" />
 
             <ImageView style="@style/img_arrow" />
         </LinearLayout>
